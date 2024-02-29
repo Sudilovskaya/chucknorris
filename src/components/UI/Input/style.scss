@@ -1,0 +1,33 @@
+@import '../../../styles/variables';
+
+.search {
+  position: relative;
+  max-width: 626px;
+  width: 100%;
+  margin: 30px auto 60px;
+
+  &__input {
+    width: 100%;
+    padding: 19px 30px;
+    color: $lily;
+    box-shadow: 0 7px 12px rgba(100, 100, 99, .2);
+
+    &::placeholder {
+      color: $lily;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 20px;
+    right: 15px;
+    display: flex;
+  }
+
+  .caption {
+    font-size: 16px;
+    margin: 20px 0 0 30px;
+  }
+}
